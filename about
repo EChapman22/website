@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+     <title="">Washburn Building Laboratories</title>
+         <link rel="stylesheet" type="text/css" href="homepage.CSS">
+         <script type=“text/javascript” src=“js/default.js”></script>
+    <title></title>
+  </head>
+
+<body>
+  <nav>
+    <a href="./homepage.html">Washburn Building</a>
+    <a href="./Book online.html">Online booking</a>
+    <a href="./Contact.html">Contact</a>
+  </nav>
+  <img src="/Users/Rachel/Desktop/blue.jpg" class="blue">
+  <h1>Washburn Building</h1>
+  <nav>
+    <ul>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Book online">Book online</a></li>
+      <li><a href="#Contact">Contact</a></li>
+      <li><a href="Media">Media</a></li>
+    </ul>
+  </nav>
+  <div id="About">
+    <h2>About</h2>
+    <p>Welcome to the laboratory booking site for the Washburn Physiology laboratories.
+
+There are three laboratories available for booking online: <br /><br />
+ <ol>
+   <li>004 Environmental Chamber<br /><br /></li>
+ <li>005 Research Laboratory (ground floor)<br /><br /></li>
+ <li>108 Upper Research Laboratory (first floor)<br /><br /></li>
+</ol>
+
+ Please follow the online booking  if you wish to book a laboratory. ​You will receive a confirmation e-mail informing you that this has been booked.</p>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Online booking</a>
+
+  </div>
+  <div id="Book online">
+    <h2>Book online</h2>
+    <h3>To book online simply follow the link</h3>
+    <ol>
+      <li>Select Laboratory</li>
+      <li>Select required equipment</li>
+      <li>Select a date and time</li>
+    </ol>
+    <p>The Washburn Laboratory is specfically for postgraduate students. If you are an undergraduate and wishing to use the laboratory please contact the lab technician directly as supervision is mandatory.</p>
+  </div>
+
+  <div id="Contact">
+  <h2>Contact</h2>
+    <strong>Any Enquiries please contact</strong><br /><br />
+    labtechnician@email.com \\ Tel: 123-456-7890<br /><br />
+    Washburn Building, University of Hull,  Hull, HU6 7RX<br /><br />
+</div>
+
+  <div id="Media">
+    <h2>Media</h2>
+
+  </div>
+  
+</body>
+
+</html>
+
+
+
+  <body>
+  </body>
+</html>
