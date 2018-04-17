@@ -4960,16 +4960,28 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: #51A351;
+  margin: 50px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…BoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background-image: -webkit-gradient(radial, 0% 0%, 0, 0% 0%, 255, color-stop(0%, rgba(115,197,115,0.98)), color-stop(100%, rgba(81,163,81,0.98)));
+  background-image: -webkit-radial-gradient(left top, farthest-corner, rgba(115,197,115,0.98) 0%, rgba(81,163,81,0.98) 100%);
+  background-image: -moz-radial-gradient(left top, farthest-corner, rgba(115,197,115,0.98) 0%, rgba(81,163,81,0.98) 100%);
+  background-image: -ms-radial-gradient(left top, farthest-corner, rgba(115,197,115,0.98) 0%, rgba(81,163,81,0.98) 100%);
+  background-image: -o-radial-gradient(left top, farthest-corner, rgba(115,197,115,0.98) 0%, rgba(81,163,81,0.98) 100%);
+  background-image: radial-gradient(farthest-corner at left top, rgba(115,197,115,0.98) 0%, rgba(81,163,81,0.98) 100%);
+  border-radius: 20px;
+  }
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
+  padding: 30px;
 }
 .jumbotron p {
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
+  padding: 20px;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -4981,7 +4993,7 @@ a.badge:focus {
   border-radius: 6px;
 }
 .jumbotron .container {
-  max-width: 100%;
+  max-width: 80%;
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
@@ -4996,6 +5008,7 @@ a.badge:focus {
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 63px;
+    padding: 30px;
   }
 }
 .thumbnail {
@@ -6755,3 +6768,8 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+#social {
+  margin: auto;
+  width: 100px;
+}
