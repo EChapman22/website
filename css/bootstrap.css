@@ -6757,9 +6757,10 @@ button.close {
 }
 
 .form {
-  display: block;
+  display: block !important;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
 }
+
 /*# sourceMappingURL=bootstrap.css.map */
