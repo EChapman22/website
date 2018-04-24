@@ -3888,10 +3888,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 		}
       #social {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
+        display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+}
 /* Flexgrid */
 
 	#flexgrid {
