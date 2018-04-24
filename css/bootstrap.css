@@ -62,6 +62,7 @@ dfn {
 h1 {
   margin: .67em 0;
   font-size: 2em;
+  color: #fff;
 }
 mark {
   color: #000;
@@ -1103,7 +1104,7 @@ a {
 a:hover,
 a:focus {
   color: #23527c;
-  text-decoration: underline;
+  border-bottom: 1px dotted;
 }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
@@ -1342,6 +1343,7 @@ mark,
 a.text-primary:hover,
 a.text-primary:focus {
   color: #286090;
+  border-bottom: 1px dotted;
 }
 .text-success {
   color: #3c763d;
@@ -1349,6 +1351,7 @@ a.text-primary:focus {
 a.text-success:hover,
 a.text-success:focus {
   color: #2b542c;
+  border-bottom: 1px dotted;
 }
 .text-info {
   color: #31708f;
@@ -1356,6 +1359,7 @@ a.text-success:focus {
 a.text-info:hover,
 a.text-info:focus {
   color: #245269;
+  border-bottom: 1px dotted;
 }
 .text-warning {
   color: #8a6d3b;
@@ -4962,7 +4966,6 @@ a.badge:focus {
   color: inherit;
   background-color: #51A351;
   margin: 50px;
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…BoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
   background-image: -webkit-gradient(radial, 0% 0%, 0, 0% 0%, 255, color-stop(0%, rgba(115,197,115,0.98)), color-stop(100%, rgba(81,163,81,0.98)));
   background-image: -webkit-radial-gradient(left top, farthest-corner, rgba(115,197,115,0.98) 0%, rgba(81,163,81,0.98) 100%);
   background-image: -moz-radial-gradient(left top, farthest-corner, rgba(115,197,115,0.98) 0%, rgba(81,163,81,0.98) 100%);
@@ -4974,7 +4977,7 @@ a.badge:focus {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: #fff;
   padding: 30px;
 }
 .jumbotron p {
